@@ -9,7 +9,7 @@ const cubeMesh = new THREE.Mesh(cubeGeometry, cubeMaterial); //creating a mesh w
 scene.add(cubeMesh); // adding mesh to scene step 4
 
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 30); //adding camera to view result step 5
-camera.position.z = 5; // setting camera position
+camera.position.z = 6; // setting camera position
 
 //initialozing render for result step 6
 //here canvas is tag in html
